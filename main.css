@@ -1,0 +1,253 @@
+@font-face {
+    font-family: Gotham;
+    src: url(./fonts/HomepageBaukasten-Bold.woff2) format('woff2'),
+         url(./fonts/HomepageBaukasten-Bold.woff) format('woff'),
+         url(./fonts/HomepageBaukasten-Bold.ttf) format('truetype'),
+         url(./fonts/HomepageBaukasten-Bold.eot) format('embedded-opentype');
+}
+
+@font-face {
+    font-family: Gotham-ok;
+    src: url(./fonts/Gotham_Medium.otf) format('opentype');
+}
+
+body {
+    color: #fff;
+    background: #1A1423;
+    overflow-x: hidden;
+    font-family: Gotham;
+}
+
+ul, a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+}
+
+li {
+    display: inline;
+}
+
+nav {
+    background-color: rgba(255, 255, 255, 0);
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.kek-text {
+    background: linear-gradient(86deg,#1067ED 10%,#55C2C4 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.lila-text {
+    background: linear-gradient(86deg,#3e0a92 10%,#5560c4 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sarga-text {
+    background: linear-gradient(86deg,#e8b71a 10%,#c4550a 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.kek2-text {
+    background: linear-gradient(86deg,#0400ff 10%,#2264c7 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.zold-text {
+    background-clip: text;
+    background: linear-gradient(86deg,#0a8e0a 10%,#0a8e0a 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.orange-text {
+    background-clip: text;
+    background: linear-gradient(86deg,#ff8c00 10%,#643803 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.main {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 5%;
+}
+
+.text {
+    font-family: Gotham-ok;
+    font-size: 20px;
+}
+
+.code {
+    background-color: #0a070e;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    padding: 10px;
+    width: 50%;
+    font-size: 20px;
+    margin-top: 5%;
+    text-align: left;
+    font-size: 15px;
+}
+
+.programozas {
+    float: left;
+    margin-left: 130px;
+    background-color: rgba(255, 255, 255, 0);
+    margin: 200;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    width: 30%;
+}
+
+.programozas p {
+    text-align: left;
+    margin: 10px;
+}
+
+.programozas2 p {
+    margin: 10px;
+}
+
+.programozas2 {
+    float: right;
+    margin-right: 130px;
+    background-color: rgba(255, 255, 255, 0);
+    margin: 200;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    width: 30%;
+}
+
+.programozas3 {
+    background-color: rgba(255, 255, 255, 0);
+    margin: auto;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    width: 30%;
+}
+
+.programozas4 {
+    background-color: rgba(255, 255, 255, 0);
+    margin: auto;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    width: 70%;
+
+}
+
+.programozas4 p {
+    text-align: left;
+    margin: 10px;
+}
+
+
+footer {
+    margin-top: 35%;
+} 
+
+footer p {
+    text-align: center;
+    margin: auto;
+}
+
+.footer2 {
+    margin-top: 10%;
+} 
+
+.footer2 p {
+    text-align: center;
+    margin: auto;
+}
+
+table {
+    border: 1px solid #fff;
+    margin: auto;
+    font-family: Gotham-ok;
+    font-size: 20px;
+}
+
+table th {
+    border: 1px solid #fff;
+    padding: 10px;
+}
+
+table td {
+    border: 1px solid #fff;
+    padding: 10px;
+}
+
+a {
+    color: #fff;
+    transition: 0.5s;
+}
+
+a:hover {
+    color: blue;
+    transition: 0.5s;
+}
+
+.mini-icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mini-icon {
+    text-align: center;
+}
+
+.mini-icon img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.mini-icon .name {
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.mini-icon .description {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.wanted {
+    margin-top: 5%;
+    text-align: center;
+    font-family: Gotham-ok;
+}
+
+.wantedes {
+    border: #fff 1px solid;
+    border-radius: 10px;
+    width: 30%;
+    margin: auto;
+}
+
+button {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    font-family: Gotham-ok;
+    font-size: 15px;
+    text-align: center;
+    border: none;
+}
