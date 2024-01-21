@@ -8,7 +8,7 @@ function getAvatar(userid) {
 
 function getWanted() {
     const proxyUrl = 'https://cors-anywhere.herokuapp.com/';
-    const apiUrl = 'http://217.144.54.196:9303/api/mdt';
+    const apiUrl = 'https://api.devbeni.tech/api/mdt';
 
     fetch(proxyUrl + apiUrl)
         .then(response => response.json())
