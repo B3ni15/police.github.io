@@ -28,16 +28,12 @@ function getWanted() {
                         var kep = data.data[0].imageUrl;
                         const item_megjegyzes = item.policemegjegyzesek;
                         const item_nev = item.nev;
-                        const item_teljesnev = item.teljes_nev;
-                        const item_szuletesiido = item.szuletesi_datum;
                         const item_rendszam = item.rendszam;
     
                         console.log(kep)
                         console.log(item_nev);
                         console.log(item_megjegyzes);
                         console.log(item_nev);
-                        console.log(item_teljesnev);
-                        console.log(item_szuletesiido);
                         console.log(item_rendszam);
                         console.log(userid);
     
@@ -53,14 +49,6 @@ function getWanted() {
                                 <div class="wanted-info">
                                     <div class="wanted-info-name">
                                         <h3>${item_nev}</h3>
-                                    </div>
-                                    <div class="wanted-info-fullname">
-                                        <p>Teljes Neve:</p>
-                                        <p>${item_teljesnev}</p>
-                                    </div>
-                                    <div class="wanted-info-birth">
-                                        <p>Születési Ideje:</p>
-                                        <p>${item_szuletesiido}</p>
                                     </div>
                                     <div class="wanted-info-car">
                                         <p>Rendszáma:</p>
